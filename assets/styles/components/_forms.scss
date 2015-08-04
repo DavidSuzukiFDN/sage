@@ -1,0 +1,28 @@
+.form {
+  margin-left: 95px;
+  input {
+    margin: 5px 10px;
+  }
+
+  .subscription {
+    padding-top: 5px;
+    text-align: left;
+  }
+}
+
+.btn-success {
+  margin-top: 15px;
+  margin-left: 104px;
+  margin-bottom: 30px;
+  padding-left: 68px;
+  padding-right: 68px;
+  float:left;
+  font-weight: 900;
+  background-color: $secondary-color;
+  border-color: $white;
+}
+
+.btn-success:hover {
+  background-color: #17a286;
+  border-color: $white;
+}

@@ -1,1 +1,43 @@
+.container-fluid {
+  width: 1200px;
+}
 
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
+.bg-image {
+    position: relative;
+}
+.bg-image img {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+}
+.bg-image h1 {
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: white;
+}
+.main {
+    background-color: #f6f6f6;
+    text-align: center;
+}
+
+.wide {
+  width:100%;
+  height:100%;
+  background-image:url('../images/CROWD.jpg');
+  background-size:cover;
+}
+
+.wide img {
+  width:100%;
+}

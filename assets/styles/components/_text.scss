@@ -1,0 +1,40 @@
+.text-column {
+  margin-bottom: 40px;
+  h3 {
+    background-color: $transparent-white;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    span {
+      color: $secondary-color;
+    }
+  }
+
+}
+
+.left-column {
+  text-align: left;
+  color: #444444;
+  background-color: $transparent-white;
+  padding: 10px;
+  font-size: 1.1em;
+  font-weight:500;
+}
+
+.right-column {
+  .targets {
+    font-size: 1.2em;
+  }
+  color: $white;
+  background-color: $transparent-green;
+  table {
+    text-align: left;
+    td {
+      padding: 20px;
+      vertical-align: top;
+      .title {
+        font-size: 1.2em;
+        font-weight: 900;
+      }
+    }
+  }
+}
