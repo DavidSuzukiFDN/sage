@@ -58,7 +58,7 @@
         <input type="checkbox"> YES - I would like to receive email from the David Suzuki Foundation! (You may unsubscribe at any time.)
       </label>
     </div>
-    </div>
     <button type="button" class="btn btn-success">SUBMIT</button>
+    </div>
   </div>
 </div>

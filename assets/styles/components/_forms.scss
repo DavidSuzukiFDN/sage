@@ -12,7 +12,7 @@
 
 .btn-success {
   margin-top: 15px;
-  margin-left: 104px;
+  margin-left: 10px;
   margin-bottom: 30px;
   padding-left: 68px;
   padding-right: 68px;
@@ -22,7 +22,7 @@
   border-color: $white;
 }
 
-.btn-success:hover {
-  background-color: #17a286;
-  border-color: $white;
+.btn-success:focus, .btn-success:active, .open>.btn-success.dropdown-toggle, .btn-success:hover {
+  background-color: #17a286!important;
+  border-color: $white!important;
 }
