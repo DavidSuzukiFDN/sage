@@ -31,12 +31,20 @@ body {
     text-align: center;
 }
 
-.wide {
+.page-template-template-custom-thank-you > .wide {
+  width:100%;
+  min-height: 100%;
+  background-image:url('../images/OurPlanet.jpg');
+}
+
+.page-template-template-custom > .wide {
   width:100%;
   min-height: 100%;
   background-image:url('../images/CROWD.jpg');
   background-size:cover;
 }
+
+
 
 .wide img {
   width:100%;

@@ -1,13 +1,57 @@
-.form {
-  margin-left: 95px;
-  input {
-    margin: 5px 10px;
-  }
+.mktoLabel {
+  display: none;
+}
 
-  .subscription {
-    padding-top: 5px;
-    text-align: left;
+form {
+  font-family: Helvetica, Arial, sans-serif!important;
+  margin-left: 95px;
+  color: $white!important;
+  input {
+    padding-top: 5px!important;
+    padding-bottom: 5px!important;
+    color: $black;
   }
+  a {
+    color: $black;
+  }
+}
+.mktoButtonRow {
+  padding-left: 50px;
+  button {
+    float:left;
+    padding-left: 50px!important;
+    padding-right: 50px!important;
+  }
+}
+
+.mktoError {
+  color: $secondary-color;
+}
+
+.mktoErrorMsg {
+  background-color: $secondary-color!important;
+  background-image: none!important;
+  border: 1px solid #1cd2ae!important;
+  text-shadow: #1cd2ae 0 -1px 0!important;
+  box-shadow: rgba(0,0,0,0.65) 0 2px 7px, inset $secondary-color 0 1px 0px!important;
+}
+
+.mktoButton {
+  text-shadow: none!important;
+  border: 1px solid!important;
+  border-color: $white;
+  margin-left: 20px!important;
+  margin-bottom: 15px!important;
+}
+
+.mktoButton:hover {
+  background-color: #1cd2ae!important;
+  background-image: none!important;
+}
+
+.mktoErrorArrow {
+  background-color: $secondary-color!important;
+  border: 1px solid #1cd2ae!important;
 }
 
 .btn-success {

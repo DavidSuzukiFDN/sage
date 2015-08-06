@@ -11,6 +11,21 @@
 
 }
 
+h3 {
+  span {
+    color: $secondary-color;
+  }
+}
+
+.thank-you-header {
+  font-size: 2em;
+}
+
+.thank-you-text {
+  font-weight: 600;
+  font-size: 1.2em;
+}
+
 .left-column {
   text-align: left;
   color: #444444;

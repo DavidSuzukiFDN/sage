@@ -1,6 +1,4 @@
 <?php get_template_part('templates/page', 'header'); ?>
-<h1 class="header">Hello World</h1>
-
 <?php if (!have_posts()) : ?>
   <div class="alert alert-warning">
     <?php _e('Sorry, no results were found.', 'sage'); ?>
